@@ -116,6 +116,7 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 .footerbar {
   background-color:var(--color-main-black);
   display:flex;
@@ -132,6 +133,34 @@ html, body {
 .footer_title{
   font-family: 'Gmarket Sans';
   color:#ffffff;
-  font-weight: bold;
-  font-size: 30px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.footer_menus {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top:0px;
+  margin:auto;
+}
+
+.managers_12th {
+  font-family: 'Gmarket Sans';
+  color:#ffffff;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.KAU_likelion {
+  font-family: 'Gmarket Sans';
+  color:#ffffff;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.LikeLion_Univ {
+  font-family: 'Gmarket Sans';
+  color:#ffffff;
+  font-weight: lighter;
+  font-size: 15px;
 }
