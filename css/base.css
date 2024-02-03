@@ -96,3 +96,42 @@
   margin-right:auto;
   margin-left:0px;
 }
+
+
+#wrap {
+  min-width: 100vh;
+  position: relative;
+  width: 100%;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  bottom: 0px;
+  position: absolute;
+}
+section {
+  padding-bottom: 200px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.footerbar {
+  background-color:var(--color-main-black);
+  display:flex;
+}
+
+.navbar_footer_txt{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top:20px;
+  margin:auto;
+}
+.footer_title{
+  font-family: 'Gmarket Sans';
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
