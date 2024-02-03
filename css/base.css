@@ -109,13 +109,7 @@ footer {
   bottom: 0px;
   position: absolute;
 }
-section {
-  padding-bottom: 200px;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-}
+
 
 .footerbar {
   background-color:var(--color-main-black);
