@@ -144,6 +144,7 @@ html, body {
   flex-direction: row;
   padding-top:0px;
   margin:auto;
+  padding-bottom: 20px;
 }
 
 .managers_12th {
@@ -151,6 +152,7 @@ html, body {
   color:#ffffff;
   font-weight: lighter;
   font-size: 15px;
+  padding-right: 50px;
 }
 .KAU_likelion {
   font-family: 'Gmarket Sans';
@@ -164,4 +166,5 @@ html, body {
   color:#ffffff;
   font-weight: lighter;
   font-size: 15px;
+  padding-left: 50px;
 }
