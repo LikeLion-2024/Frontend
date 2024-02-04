@@ -127,7 +127,6 @@ html, body {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  /*padding-top:20px;*/
   margin:auto;
 }
 
@@ -143,8 +142,6 @@ html, body {
   text-align: center;
   justify-content: center;
   flex-direction: row;
-  /*padding-bottom: 0px;
-  margin-top: 0px;*/
   padding-top: 0px;
 }
 
@@ -152,20 +149,20 @@ html, body {
   font-family: 'Gmarket Sans';
   color:#ffffff;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 10px;
   padding-right: 100px;
 }
 .KAU_likelion {
   font-family: 'Gmarket Sans';
   color:#ffffff;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .LikeLion_Univ {
   font-family: 'Gmarket Sans';
   color:#ffffff;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 10px;
   padding-left: 100px;
 }
