@@ -142,8 +142,8 @@ html, body {
   text-align: center;
   justify-content: center;
   flex-direction: row;
-  padding-top:0px;
-  margin:auto;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .managers_12th {
@@ -152,14 +152,12 @@ html, body {
   font-weight: lighter;
   font-size: 15px;
   padding-right: 100px;
-  padding-bottom: 20px;
 }
 .KAU_likelion {
   font-family: 'Gmarket Sans';
   color:#ffffff;
   font-weight: lighter;
   font-size: 15px;
-  padding-bottom: 20px;
 }
 
 .LikeLion_Univ {
@@ -168,5 +166,4 @@ html, body {
   font-weight: lighter;
   font-size: 15px;
   padding-left: 100px;
-  padding-bottom: 20px;
 }
