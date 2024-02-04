@@ -127,7 +127,7 @@ html, body {
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  padding-top:20px;
+  /*padding-top:20px;*/
   margin:auto;
 }
 
@@ -143,8 +143,8 @@ html, body {
   text-align: center;
   justify-content: center;
   flex-direction: row;
-  padding-bottom: 0px;
-  margin-top: 0px;
+  /*padding-bottom: 0px;
+  margin-top: 0px;*/
   padding-top: 0px;
 }
 
