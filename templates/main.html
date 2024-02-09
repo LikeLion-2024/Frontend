@@ -5,17 +5,19 @@
   <title>항공대멋사LMS</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="../js/navbar.js"></script>
+  <script src="../js/base.js"></script>
 </head>
 
 <body>
     <div nav-include-path="../templates/layout/navbar.html"> <!--브라우저에서 인식안함.Tag 이름-->
-      <script>LoadHTML();</script> <!--js파일에서 만든 함수인 LoadHTML()을 불러옴-->
+      <script>LoadNAVBAR();</script> <!--js파일에서 만든 함수인 LoadHTML()을 불러옴-->
     </div>
 
     <div class="assignment_title_div">
       <h1 class="assginment_title">과제 목록</h1>
     </div>
 </body>
-
+  <div footer-include-path="../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+  </div>
 </html>
