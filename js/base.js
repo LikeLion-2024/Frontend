@@ -1,3 +1,9 @@
+const backtoMain = document.querySelector('.likelionlogo_btn');
+//클릭기능 부여
+backtoMain.addEventListener('click',()=>{
+    location.href ='../../templates/main.html';
+});
+
 function LoadNAVBAR(){
   var allElements = document.getElementsByTagName('*');
   for(var i=0; i<allElements.length; i++){
@@ -39,3 +45,6 @@ function LoadFOOTER(){
     }
   }
 }
+
+//변수 지정
+
