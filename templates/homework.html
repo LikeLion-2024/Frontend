@@ -5,6 +5,43 @@
   <title>과제제출페이지</title>
 </head>
 <body>
+  <div nav-include-path="../templates/layout/navbar.html"> <!--브라우저에서 인식안함.Tag 이름-->
+    <script>LoadNAVBAR();</script> <!--js파일에서 만든 함수인 LoadHTML()을 불러옴-->
+  </div>
+
+  <div class="homework_title_div">
+    <img src="../img/book-btn.png" alt="title_book_btn" class="title_book_btn">
+    <h1 class="assginment_title">과제 제출</h1>
+  </div>
+
+  <div class="assginment_box">
+    <div class="assginment_box_div">
+      <p class="assginment_category">과제 : JAVA</p>
+      <p class="assginment_goal">class 속성을 이용해서 은행계좌 만들기</p>
+      <p class="assginment_deadline_date">3월 27일 월요일</p>
+      <p class="assginment_deadline_time">19:00</p>
+    </div>
+    <div class="assginment_check_div">
+      <p class="assginment_check">과제 내용 확인하기</p>
+      <div class="assginment_check_box">
+        <img>
+      </div>
+    </div>
+    <div class="assginment_submit_div">
+      <p class="assginment_submit">과제 제출하기</p>
+      <div class="assginment1_box">
+        <p class="assginment1"></> Java세션_은행계좌만들기_쩡이.java</p>
+      </div>
+      <div class="file_add_div">
+        <img src="../img/book-btn.png" alt="title_book_btn" class="title_book_btn">
+        <h1 class="file_add_title">파일추가하기</h1>
+      </div>
+    </div>
+  </div>
+
 
 </body>
+  <div footer-include-path="../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+  </div>
 </html>

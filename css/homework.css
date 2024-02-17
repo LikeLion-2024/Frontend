@@ -1,0 +1,137 @@
+:root{
+    --color-main-black : #3E3E3E;
+    --color-orange-main: #FE9519;
+  }
+  
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+  
+  .notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .homework_title_div{
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    margin-top:20px;
+  }
+  .assginment_title{
+    font-family: "Gmarket Sans";
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  .title_book_btn{
+    width: 35px;
+    height: 35px;
+    margin-right:10px;
+  }
+  .assignment_box_div{  /*확인필요*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .assginment_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid #d9d9d9;
+    width: 580px;
+    height:620px;
+    border-radius: 8px;
+    padding-top: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  .assginment_category{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: left;
+  }
+  .assginment_goal{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 12px;
+    padding-top: 5px;
+    justify-content: left;
+  }
+  .assginment_deadline_date{
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 12px;
+    padding-top:5px;
+    justify-content: right;
+  }
+  .assginment_deadline_time{
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 12px;
+    padding-top:5px;
+    justify-content: right;
+  }
+  .assignment_check_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .assginment_check{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight: bold;
+    justify-content: left;
+  }
+  .assginment_check_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px var(--color-orange-main);
+    width: 300px;
+    height:200px;
+    border-radius: 8px;
+    padding-top: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  .assginment_submit_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .assginment_submit{
+    font-family: "Noto Sans KR";
+    color: #d9d9d9;
+    font-size: 12px;
+    padding-top: 5px;
+    font-weight: bold;
+    justify-content: left;
+  }
+  .assginment1_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    fill: var(--color-orange-main);
+    width: 300px;
+    height:20px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+  .assginment1{
+    font-family: "Noto Sans KR";
+    color: #d9d9d9;
+    font-size: 12px;
+    padding-top: 5px;
+    justify-content: left;
+  }
+  
+  
