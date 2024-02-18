@@ -36,7 +36,7 @@
     flex-direction: row;
     align-items: flex-start;
     width: 500px;
-    height: 70px;
+    height: auto;
   }
   .assignment_box_div{
     display: flex;
@@ -53,7 +53,7 @@
   }
   .assginment_box{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     border: 1px solid #d9d9d9;
     width: 580px;
@@ -97,8 +97,8 @@
   }
   .assignment_check_div{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .assginment_check{
     font-family: "Noto Sans KR";
@@ -113,8 +113,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 1px;
-    border-color: var(--color-orange-main);
+    border: 1px solid var(--color-orange-main);
     width: 300px;
     border-radius: 8px;
     padding: 10px;
@@ -123,8 +122,8 @@
   }
   .assginment_submit_div{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .assginment_submit{
     font-family: "Noto Sans KR";
@@ -132,7 +131,8 @@
     font-size: 12px;
     padding-top: 5px;
     font-weight: bold;
-    justify-content: left;
+    white-space: nowrap;
+    margin: 0;
   }
   .assginment1_box{
     display: flex;
