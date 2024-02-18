@@ -160,10 +160,10 @@
   }
   .assginment1{
     font-family: "Noto Sans KR";
-    color: #d9d9d9;
+    color: #ffffff;
     font-size: 12px;
-    /*padding-top: 5px;
-    white-space: nowrap;
+    padding-top: 8px;
+    /*white-space: nowrap;
     margin: 0;*/
   }
   .file_add_title{
@@ -171,11 +171,11 @@
     color: var(--color-orange-main);
     font-size: 10px;
     padding-top: 2px;
-    justify-content: left;
+    justify-content: center;
   }
   .file_add_div{
     display: flex;
     margin: auto;
-    margin-top: 2px;
+    /*margin-top: 2px;*/
   }
   
