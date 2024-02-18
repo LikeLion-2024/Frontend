@@ -17,8 +17,8 @@
   .homework_title_div{
     display: flex;
     margin: auto;
-    justify-content: center;
-    margin-top:20px;
+    margin-left: 100px;
+    margin-top: 20px;
   }
   .assginment_title{
     font-family: "Gmarket Sans";
@@ -36,19 +36,13 @@
     height: 20px;
     margin-right:10px;
   }
-  .assignment{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 500px;
-    height: auto;
-  }
-  .assignment_box_div{
+  .assignment_div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 580px;
-    /*height: 70px;*/
+    height: auto;
+    margin-left: 30px;
   }
   .line{
     display: flex;
@@ -59,12 +53,13 @@
   .assginment_box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid #d9d9d9;
     width: 580px;
     height: auto;
     border-radius: 8px;
     padding: 20px;
+    margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -104,7 +99,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 100px;
+    margin-top: 30px;
+    margin-left: 70px;
   }
   .assginment_check{
     font-family: "Noto Sans KR";
@@ -118,7 +114,6 @@
   .assginment_check_box{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     border: 1px solid var(--color-orange-main);
     width: 400px;
     height: 200px;
@@ -126,6 +121,7 @@
     padding: 10px;
     margin-top:10px;
     margin-bottom: 10px;
+    margin-left: 70px;
   }
   .assginment_submit_div{
     display: flex;
@@ -138,6 +134,7 @@
     color: var(--color-main-black);
     font-size: 12px;
     padding-top: 5px;
+    margin-left: 70px;
     font-weight: bold;
     white-space: nowrap;
     margin: 0;
@@ -154,6 +151,7 @@
     padding-top: 5px;
     margin-top:5px;
     margin-bottom: 5px;
+    margin-left: 70px;
   }
   .assginment1{
     font-family: "Noto Sans KR";
@@ -173,7 +171,7 @@
   .file_add_div{
     display: flex;
     margin: auto;
-    justify-content: center;
     margin-top: 20px;
+    margin-left: 70px;
   }
   
