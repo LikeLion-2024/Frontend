@@ -129,6 +129,7 @@
     width: 200px;
     height: 200px;
     justify-content: center;
+    object-fit: cover;
   }
   .assginment_submit_div{
     display: flex;
@@ -177,7 +178,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
+    margin-left: 0px;
     margin-top: 2px;
   }
   
