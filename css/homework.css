@@ -34,8 +34,7 @@
   .assignment{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 500px;
     height: 70px;
   }
@@ -49,12 +48,12 @@
   .assginment_box{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     border: 1px solid #d9d9d9;
     width: 580px;
     height: auto;
     border-radius: 8px;
-    padding-top: 20px;
+    padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -70,24 +69,28 @@
     color: var(--color-main-black);
     font-size: 15px;
     font-weight: bold;
+    white-space: nowrap;
   }
   .assginment_goal{
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
     font-size: 12px;
     padding-top: 5px;
+    white-space: nowrap;
   }
   .assginment_deadline_date{
     font-family: "Noto Sans KR";
     color: var(--color-orange-main);
     font-size: 12px;
     padding-top:5px;
+    white-space: nowrap;
   }
   .assginment_deadline_time{
     font-family: "Noto Sans KR";
     color: var(--color-orange-main);
     font-size: 12px;
     padding-top:5px;
+    white-space: nowrap;
   }
   .assignment_check_div{
     display: flex;
