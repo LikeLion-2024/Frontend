@@ -34,7 +34,8 @@
   .file_clip{
     width: 20px;
     height: 20px;
-    margin-right:10px;
+    margin-right: 10px;
+    margin-left: 70px;
   }
   .assignment_div{
     display: flex;
@@ -107,7 +108,7 @@
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
     font-size: 18px;
-    /*padding-top: 50px;*/
+    padding-top: 50px;
     font-weight: bold;
     padding-left: 70px;
     white-space: nowrap;
@@ -126,8 +127,8 @@
     margin-left: 70px;
   }
   .assginment_example{
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
     justify-content: center;
   }
   .assginment_submit_div{
@@ -140,7 +141,7 @@
   .assginment_submit{
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
-    font-size: 12px;
+    font-size: 18px;
     padding-top: 5px;
     /*margin-left: 70px;*/
     font-weight: bold;
