@@ -170,12 +170,12 @@
     font-family: "Noto Sans KR";
     color: var(--color-orange-main);
     font-size: 10px;
-    padding-top: 2px;
+    font-weight: normal;
+    margin-bottom: 2px;
   }
   .file_add_div{
     display: flex;
     margin: auto;
     margin-top: 2px;
-    justify-content: left;
   }
   
