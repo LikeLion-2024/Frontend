@@ -33,12 +33,13 @@
   }
   .assignment{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 500px;
     height: 70px;
   }
-  .assignment_box_div{  /*확인필요*/
+  .assignment_box_div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,12 +49,12 @@
   .assginment_box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid #d9d9d9;
     width: 580px;
-    height: 620px;
+    height: auto;
     border-radius: 8px;
-    padding-top: 30px;
+    padding-top: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
