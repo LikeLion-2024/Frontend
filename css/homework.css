@@ -97,7 +97,7 @@
   }
   .assignment_check_div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .assginment_check{
@@ -106,7 +106,8 @@
     font-size: 12px;
     padding-top: 5px;
     font-weight: bold;
-    justify-content: left;
+    white-space: nowrap;
+    margin: 0;
   }
   .assginment_check_box{
     display: flex;
@@ -115,15 +116,14 @@
     border: 1px;
     border-color: var(--color-orange-main);
     width: 300px;
-    height:200px;
     border-radius: 8px;
-    padding-top: 10px;
+    padding: 10px;
     margin-top:10px;
     margin-bottom: 10px;
   }
   .assginment_submit_div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .assginment_submit{
