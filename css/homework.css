@@ -163,8 +163,8 @@
     color: #ffffff;
     font-size: 12px;
     padding-top: 2px;
-    /*white-space: nowrap;
-    margin: 0;*/
+    white-space: nowrap;
+    margin: 0;
   }
   .file_add_title{
     font-family: "Noto Sans KR";
@@ -176,6 +176,6 @@
     display: flex;
     margin: auto;
     margin-top: 2px;
-    justify-content: center;
+    justify-content: left;
   }
   
