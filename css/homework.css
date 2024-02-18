@@ -133,7 +133,7 @@
   .assginment_submit_div{
     display: flex;
     flex-direction: column;
-    /*align-items: flex-start;*/
+    align-items: flex-start;
     padding-left: 70px;
     padding-top: 50px;
   }
@@ -142,7 +142,6 @@
     color: var(--color-main-black);
     font-size: 18px;
     padding-top: 5px;
-    /*margin-left: 70px;*/
     font-weight: bold;
     white-space: nowrap;
     margin: 0;
@@ -163,16 +162,16 @@
     font-family: "Noto Sans KR";
     color: #d9d9d9;
     font-size: 12px;
-    padding-top: 5px;
+    /*padding-top: 5px;
     white-space: nowrap;
-    margin: 0;
+    margin: 0;*/
   }
   .file_add_title{
     font-family: "Noto Sans KR";
     color: var(--color-orange-main);
     font-size: 10px;
     padding-top: 2px;
-    /*justify-content: left;*/
+    justify-content: left;
   }
   .file_add_div{
     display: flex;
