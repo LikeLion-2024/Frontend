@@ -150,11 +150,12 @@
   .assginment1_box{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid var(--color-orange-main);
     background-color: var(--color-orange-main);
-    width: 300px;
-    height:20px;
+    width: 400px;
+    height: 30px;
     border-radius: 5px;
     padding-top: 5px;
     margin-bottom: 5px;
