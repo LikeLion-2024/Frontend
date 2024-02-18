@@ -49,6 +49,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-left: 30px;
+    margin-right: 30px;
   }
   .assginment_box{
     display: flex;
@@ -98,15 +99,15 @@
   .assignment_check_div{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 30px;
+    /*align-items: flex-start;*/
+    padding-top: 50px;
     margin-left: 70px;
   }
   .assginment_check{
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
-    font-size: 12px;
-    padding-top: 5px;
+    font-size: 18px;
+    /*padding-top: 50px;*/
     font-weight: bold;
     margin-left: 70px;
     white-space: nowrap;
@@ -125,22 +126,23 @@
     margin-left: 70px;
   }
   .assginment_example{
-    width: 300px;
-    height: 300px;
+    width: 100px;
+    height: 100px;
     justify-content: center;
   }
   .assginment_submit_div{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding-top: 100px;
+    /*align-items: flex-start;*/
+    padding-left: 70px;
+    padding-top: 50px;
   }
   .assginment_submit{
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
     font-size: 12px;
     padding-top: 5px;
-    margin-left: 70px;
+    /*margin-left: 70px;*/
     font-weight: bold;
     white-space: nowrap;
     margin: 0;
@@ -155,7 +157,6 @@
     height:20px;
     border-radius: 5px;
     padding-top: 5px;
-    margin-top:5px;
     margin-bottom: 5px;
     margin-left: 70px;
   }
@@ -177,7 +178,7 @@
   .file_add_div{
     display: flex;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 2px;
     margin-left: 70px;
   }
   
