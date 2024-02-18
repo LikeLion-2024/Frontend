@@ -45,6 +45,12 @@
     width: 250px;
     height: 70px;
   }
+  .left_info,
+  .right_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   .assginment_box{
     display: flex;
     flex-direction: row;
@@ -57,19 +63,13 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .assignment_deadline_div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 250px;
-    height: 70px;
-  }
   .assginment_category{
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
     font-size: 15px;
     font-weight: bold;
     white-space: nowrap;
+    margin: 0;
   }
   .assginment_goal{
     font-family: "Noto Sans KR";
@@ -77,6 +77,7 @@
     font-size: 12px;
     padding-top: 5px;
     white-space: nowrap;
+    margin: 0;
   }
   .assginment_deadline_date{
     font-family: "Noto Sans KR";
@@ -84,6 +85,7 @@
     font-size: 12px;
     padding-top:5px;
     white-space: nowrap;
+    margin: 0;
   }
   .assginment_deadline_time{
     font-family: "Noto Sans KR";
@@ -91,6 +93,7 @@
     font-size: 12px;
     padding-top:5px;
     white-space: nowrap;
+    margin: 0;
   }
   .assignment_check_div{
     display: flex;
