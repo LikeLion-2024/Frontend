@@ -99,7 +99,7 @@
   .assignment_check_div{
     display: flex;
     flex-direction: column;
-    /*align-items: flex-start;*/
+    align-items: flex-start;
     padding-top: 50px;
     margin-left: 70px;
   }
@@ -172,7 +172,7 @@
     color: var(--color-orange-main);
     font-size: 10px;
     padding-top: 2px;
-    justify-content: left;
+    /*justify-content: left;*/
   }
   .file_add_div{
     display: flex;
