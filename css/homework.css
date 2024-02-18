@@ -31,10 +31,15 @@
     height: 20px;
     margin-right:10px;
   }
-  .assignment_box_div{  /*확인필요*/
+  .assignment{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .assignment_box_div{  /*확인필요*/
+    display: flex;
+    flex-direction: row;
+    align-items: left;
   }
   .assginment_box{
     display: flex;
@@ -47,6 +52,11 @@
     padding-top: 30px;
     margin-top:20px;
     margin-bottom: 20px;
+  }
+  .assignment_deadline_div{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
   }
   .assginment_category{
     font-family: "Noto Sans KR";
@@ -108,7 +118,7 @@
   }
   .assginment_submit{
     font-family: "Noto Sans KR";
-    color: #d9d9d9;
+    color: var(--color-main-black);
     font-size: 12px;
     padding-top: 5px;
     font-weight: bold;
@@ -118,6 +128,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    border: var(--color-orange-main);
     fill: var(--color-orange-main);
     width: 300px;
     height:20px;
