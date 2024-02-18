@@ -27,8 +27,8 @@
     margin-bottom: 20px;
   }
   .title_book_btn{
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     margin-right:10px;
   }
   .assignment_box_div{  /*확인필요*/
@@ -133,5 +133,11 @@
     padding-top: 5px;
     justify-content: left;
   }
-  
+  .file_add_title{
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 10px;
+    padding-top: 2px;
+    justify-content: left;
+  }
   
