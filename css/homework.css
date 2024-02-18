@@ -48,7 +48,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    margin-left: 30px;
   }
   .assginment_box{
     display: flex;
@@ -108,6 +108,7 @@
     font-size: 12px;
     padding-top: 5px;
     font-weight: bold;
+    margin-left: 70px;
     white-space: nowrap;
     margin: 0;
   }
@@ -116,12 +117,17 @@
     flex-direction: row;
     border: 1px solid var(--color-orange-main);
     width: 400px;
-    height: 200px;
+    height: auto;
     border-radius: 8px;
     padding: 10px;
     margin-top:10px;
     margin-bottom: 10px;
     margin-left: 70px;
+  }
+  .assginment_example{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
   }
   .assginment_submit_div{
     display: flex;
