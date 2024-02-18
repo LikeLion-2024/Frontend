@@ -162,7 +162,7 @@
     font-family: "Noto Sans KR";
     color: #ffffff;
     font-size: 12px;
-    padding-top: 8px;
+    padding-top: 2px;
     /*white-space: nowrap;
     margin: 0;*/
   }
@@ -171,11 +171,11 @@
     color: var(--color-orange-main);
     font-size: 10px;
     padding-top: 2px;
-    justify-content: center;
   }
   .file_add_div{
     display: flex;
     margin: auto;
-    /*margin-top: 2px;*/
+    margin-top: 2px;
+    justify-content: center;
   }
   
