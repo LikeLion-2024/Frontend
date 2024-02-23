@@ -1,5 +1,10 @@
+
+function backToMain(){
+  location.href="../templates/main.html";
+}
+
 function LoadNAVBAR(){
-  var allElements = document.getElementsByTagName('*');
+  const allElements = document.getElementsByTagName('*');
   for(var i=0; i<allElements.length; i++){
       var el=allElements[i];
     var navpath = el.getAttribute("nav-include-path");
@@ -20,7 +25,7 @@ function LoadNAVBAR(){
 }
 
 function LoadFOOTER(){
-  var allElements = document.getElementsByTagName('*');
+  const allElements = document.getElementsByTagName('*');
   for(var i=0; i<allElements.length; i++){
     var el=allElements[i];
     var footerpath = el.getAttribute("footer-include-path");
@@ -39,3 +44,6 @@ function LoadFOOTER(){
     }
   }
 }
+
+//변수 지정
+
