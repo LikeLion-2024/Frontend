@@ -1,3 +1,7 @@
+document.getElementById('fileAddTitle').addEventListener('click', function() {
+    openFileExplorer();
+  });
+
 function openFileExplorer() {
     // 여기에 파일 탐색기 열기 및 파일 선택 로직을 작성합니다.
     // 선택된 파일의 이름을 가져온 후 assignment1 클래스의 span에 표시합니다.
