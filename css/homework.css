@@ -169,11 +169,15 @@
     margin: 0;
   }
   .file_add_title{
+    cursor: pointer;
     font-family: "Noto Sans KR";
     color: var(--color-orange-main);
     font-size: 10px;
     font-weight: normal;
     margin-bottom: 2px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #ffffff;
   }
   .file_add_div{
     display: flex;
