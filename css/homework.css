@@ -15,21 +15,24 @@
     font-family: 'Noto Sans KR', sans-serif;
   }
   .homework_title_div{
-    display: flex;
+    width: 580px;
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
     margin: auto;
-    margin-left: 100px;
-    margin-top: 20px;
+    padding-top:20px;
   }
   .assginment_title{
+    display: inline-block;
     font-family: "Gmarket Sans";
     font-size: 18px;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-left:10px;
   }
   .title_book_btn{
+    display: inline-block;
     width: 35px;
     height: 35px;
-    margin-right:10px;
   }
   .file_clip{
     width: 20px;
@@ -60,7 +63,7 @@
     height: auto;
     border-radius: 8px;
     padding: 20px;
-    margin-left: 100px;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
   }
