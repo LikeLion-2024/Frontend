@@ -1,8 +1,4 @@
 
-function backToMain(){
-  location.href="../templates/main.html";
-}
-
 function LoadNAVBAR(){
   const allElements = document.getElementsByTagName('*');
   for(var i=0; i<allElements.length; i++){
@@ -44,6 +40,7 @@ function LoadFOOTER(){
     }
   }
 }
-
-//변수 지정
+function backToMain(){
+  location.href="../templates/main.html";
+}
 

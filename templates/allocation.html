@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>과제할당</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/allocation.css">
+  <script src="../js/base.js"></script>
+  <script src="../js/allocation.js"></script>
+</head>
+<body>
+  <div nav-include-path="../templates/layout/navbar.html"> <!--브라우저에서 인식안함.Tag 이름-->
+    <script>LoadNAVBAR();</script> <!--js파일에서 만든 함수인 LoadHTML()을 불러옴-->
+  </div>
+
+  <div class="assignment_title_div">
+    <img src="../img/book-btn.png" alt="title_book_btn" class="title_book_btn">
+    <h1 class="assginment_title">과제 할당</h1>
+  </div>
+
+  <div class="allocation_div">
+    <div class="allocation_box">
+      <div class="duedatetime_box">
+        <label for="due_date">마감기한 설정
+          <input type="date"
+                 id="due_date"
+                 max="2025-01-01"
+                 min="2024-01-01">
+        </label>
+        <label for="due_time">마감시간 설정
+          <input type="time"
+                 id="due_time"
+                 min="00:00:00"
+                 max="23:59:59">
+        </label>
+        <button onclick="DueDateTime()">마감설정</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+  <div footer-include-path="../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+  </div>
+</html>
