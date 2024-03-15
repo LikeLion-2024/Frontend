@@ -1,0 +1,201 @@
+:root{
+    --color-main-black : #3E3E3E;
+    --color-orange-main: #FE9519;
+  }
+  
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+  
+  .notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .homework_title_div{
+    width: 580px;
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: auto;
+    padding-top:20px;
+  }
+  .assginment_title{
+    display: inline-block;
+    font-family: "Gmarket Sans";
+    font-size: 18px;
+    font-weight: normal;
+    margin-left:10px;
+  }
+  .title_book_btn{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+  }
+  .file_clip{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .assignment_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 580px;
+    height: auto;
+    margin-left: 30px;
+  }
+  .line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .assginment_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #d9d9d9;
+    width: 580px;
+    height: auto;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .assginment_category{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 22px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .assginment_goal{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 15px;
+    padding-top: 5px;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .assginment_deadline_date{
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 15px;
+    padding-top:5px;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .assginment_deadline_time{
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 15px;
+    padding-top:5px;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .assignment_check_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 50px;
+    margin-left: 70px;
+  }
+  .assginment_check{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 18px;
+    padding-top: 50px;
+    font-weight: bold;
+    padding-left: 70px;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .assginment_check_box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--color-orange-main);
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+  }
+  .assignment_example{
+    width: 350px;
+    height: 350px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .assginment_submit_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+    padding-top: 50px;
+  }
+  .assginment_submit{
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 18px;
+    padding-top: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0;
+  }
+  .file-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--color-orange-main);
+    background-color: var(--color-orange-main);
+    width: 420px;
+    height: 20px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .file-name {
+    font-family: "Noto Sans KR";
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 2px;
+    white-space: nowrap;
+    margin: 0;
+    color: white;
+  }
+  .delete-button {
+    cursor: pointer;
+    color: red;
+    font-family: "Noto Sans KR";
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .file_add_title{
+    cursor: pointer;
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #ffffff;
+  }
+  .file_add_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0px;
+    margin-top: 2px;
+  }
+  

@@ -117,7 +117,7 @@ html, body {
 }
 .footerbar {
   background-color:var(--color-main-black);
-  display:flex;
+  display: flex;
   height: 100px;
   text-align: center;
 }
@@ -131,11 +131,14 @@ html, body {
   color:#ffffff;
   font-weight: lighter;
   font-size: 15px;
+  justify-content: center;
 }
 
 .footer_menus {
   display: flex;
-  text-align: center;
+  width: 400px;
+  flex-direction: row;
+  justify-content: space-between;
   padding-top: 10px;
 }
 

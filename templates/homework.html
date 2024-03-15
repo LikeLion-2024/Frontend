@@ -3,8 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>과제제출페이지</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../js/base.js"></script>
+  <link rel="stylesheet" href="../css/homework.css">
 </head>
 <body>
+  <div nav-include-path="../templates/layout/navbar.html"> <!--브라우저에서 인식안함.Tag 이름-->
+    <script>LoadNAVBAR();</script> <!--js파일에서 만든 함수인 LoadHTML()을 불러옴-->
+  </div>
+
+  <div class="homework_title_div">
+    <img src="../img/book-btn.png" alt="title_book_btn" class="title_book_btn">
+    <h1 class="assginment_title">과제 제출</h1>
+  </div>
+  
+  <div class="assginment_box">
+    <div class="assginment_div">
+      <div class="line">
+        <p class="assginment_category">과제 : JAVA</p>
+        <p class="assginment_deadline_date">3월 27일 월요일</p>
+      </div>
+      <div class="line">
+        <p class="assginment_goal">class 속성을 이용해서 은행계좌 만들기</p>
+        <p class="assginment_deadline_time">19:00</p>
+      </div>
+    </div>
+    <div class="assginment_check_div">
+      <p class="assginment_check">과제 내용 확인하기</p>
+      <div class="assginment_check_box" style="overflow:auto">
+        <img src="../img/assginment.png" alt="assignment_example" class="assignment_example">
+      </div>
+    </div>
+    <div class="assginment_submit_div">
+      <p class="assginment_submit">과제 제출하기</p>
+      <div id="fileContainer"></div>
+      <div class="file_add_div">
+        <img src="../img/book-btn.png" alt="file_clip" class="file_clip" id="fileAddTitle">
+        <label for="fileInput" class="file_add_title">파일 추가하기</label>
+        <form action="upload" method="post">
+          <input type="file" id="fileInput" style="display: none;" name="파일명" multiple onchange="handleFileSelection()">
+          <button>제출</button>
+        </form>
+      </div>
+      
+      <script src="../js/homework.js"></script>
+    </div>
+  </div>
+  
 
 </body>
+  <div footer-include-path="../templates/layout/footer.html">
+    <script>LoadFOOTER();</script>
+  </div>
 </html>
