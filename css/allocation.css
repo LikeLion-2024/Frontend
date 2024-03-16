@@ -17,6 +17,154 @@
 .allocation_box{
   border: 1px solid #d9d9d9;
   width: 580px;
+  border-radius: 8px;
+}
+
+.allocation_title{
+  font-family: "Noto Sans KR";
+  font-size: 18px;
+  font-weight: bold;
+  margin-left:10px;
+}
+.allocation_sub_title{
+  font-family: "Noto Sans KR";
+  font-size: 15px;
+  font-weight: normal;
+  margin-left:10px;
+}
+.title_book_btn{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+.file_clip{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.assignment_div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 580px;
+  height: auto;
+  margin-left: 30px;
+}
+
+.assginment_box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #d9d9d9;
+  width: 580px;
+  height: auto;
+  border-radius: 8px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.assginment_category{
+  font-family: "Noto Sans KR";
+  color: var(--color-main-black);
+  font-size: 22px;
+  font-weight: bold;
+  /*white-space: nowrap;*/
+  margin: 0;
+}
+.assginment_goal{
+  font-family: "Noto Sans KR";
+  color: var(--color-main-black);
+  font-size: 15px;
+  padding-top: 5px;
+  /*white-space: nowrap;*/
+  margin: 0;
+}
+.assginment_deadline_date{
+  font-family: "Noto Sans KR";
+  color: var(--color-orange-main);
+  font-size: 15px;
+  padding-top:5px;
+  /*white-space: nowrap;*/
+  margin: 0;
+}
+.assginment_deadline_time{
+  font-family: "Noto Sans KR";
+  color: var(--color-orange-main);
+  font-size: 15px;
+  padding-top:5px;
+  /*white-space: nowrap;*/
+  margin: 0;
+}
+.assignment_check_div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  margin-left: 70px;
+}
+.insert_assginment_title{
+  font-family: "Noto Sans KR";
+  color: var(--color-main-black);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.assginment_content_box{
+  /*display: flex;*/
+  border: 1px solid var(--color-orange-main);
+  width:400px;
+  height: auto;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  word-break: break-all;
+  font-family: "Noto Sans KR";
+  font-size: 15px;
+  overflow-wrap:break-word ;
+  word-break: normal;
+}
+
+.assginment_submit_div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.assginment_submit{
+  font-family: "Noto Sans KR";
+  color: var(--color-main-black);
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 0;
+}
+.file-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--color-orange-main);
+  background-color: var(--color-orange-main);
+  width: 420px;
+  height: 20px;
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.file-name {
+  font-family: "Noto Sans KR";
+  color: #ffffff;
+  font-size: 12px;
+  padding-top: 2px;
+  white-space: nowrap;
+  margin: 0;
+  color: white;
 }
 .duedatetime_box{
   border: 3px solid #000000;
