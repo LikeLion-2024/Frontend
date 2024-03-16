@@ -20,28 +20,35 @@
     <img src="../img/book-btn.png" alt="title_book_btn" class="title_book_btn">
     <h1 class="assginment_title">과제 할당</h1>
   </div>
-
-  <div class="allocation_div">
-    <div class="allocation_box">
-      <div class="duedatetime_box">
-        <label for="due_date">마감기한 설정
-          <input type="date"
-                 id="due_date"
-                 max="2025-01-01"
-                 min="2024-01-01">
-        </label>
-        <label for="due_time">마감시간 설정
-          <input type="time"
-                 id="due_time"
-                 min="00:00:00"
-                 max="23:59:59">
-        </label>
-        <button onclick="DueDateTime()">마감설정</button>
+  <div class="allocation_box">
+    <div class="allocation_div">
+        <p class="allocation_title">과제 : JAVA</p>
+        <p class="allocation_sub_title">class 속성을 이용해서 은행계좌 만들기</p>
+        <p class="insert_assginment_title">과제 내용 작성하기</p>
+      <input class="assginment_content_box">
+        <div class="allocation_div">
+          <div class="allocation_box">
+            <div class="duedatetime_box">
+              <label for="due_date">마감기한 설정
+                <input type="date"
+                       id="due_date"
+                       max="2025-01-01"
+                       min="2024-01-01">
+              </label>
+              <label for="due_time">마감시간 설정
+                <input type="time"
+                       id="due_time"
+                       min="00:00:00"
+                       max="23:59:59">
+              </label>
+              <button onclick="DueDateTime()">마감설정</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-
+  <script src="../js/homework.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
   <div footer-include-path="../templates/layout/footer.html">
     <script>LoadFOOTER();</script>
