@@ -2,7 +2,7 @@
     --color-main-black : #3E3E3E;
     --color-orange-main: #FE9519;
   }
-  
+
   @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
@@ -10,22 +10,22 @@
     font-style: normal;
   }
   @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-  
+
   .notosanskr * {
     font-family: 'Noto Sans KR', sans-serif;
   }
   .homework_title_div{
-    width: 580px;
-    display: block;
-    flex-direction: row;
+    width: 620px;
+    display: flex;
     justify-content: flex-start;
-    margin: auto;
+    align-items: center;
+    margin: 0 auto;
     padding-top:20px;
   }
   .assginment_title{
     display: inline-block;
     font-family: "Gmarket Sans";
-    font-size: 18px;
+    /*font-size: 18px;*/
     font-weight: normal;
     margin-left:10px;
   }
@@ -34,18 +34,13 @@
     width: 35px;
     height: 35px;
   }
-  .file_clip{
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-  }
+
   .assignment_div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 580px;
     height: auto;
-    margin-left: 30px;
   }
   .line{
     display: flex;
@@ -57,15 +52,13 @@
   .assginment_box{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border: 1px solid #d9d9d9;
     width: 580px;
     height: auto;
     border-radius: 8px;
     padding: 20px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
   }
   .assginment_category{
     font-family: "Noto Sans KR";
@@ -99,47 +92,65 @@
     white-space: nowrap;
     margin: 0;
   }
-  .assignment_check_div{
+  .assignment_subdiv{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: 50px;
-    margin-left: 70px;
   }
-  .assginment_check{
+  .assginment_subtitle{
     font-family: "Noto Sans KR";
     color: var(--color-main-black);
+    width: 410px;
     font-size: 18px;
-    padding-top: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
     font-weight: bold;
-    padding-left: 70px;
     white-space: nowrap;
-    margin: 0;
   }
   .assginment_check_box{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 1px solid var(--color-orange-main);
     width: 400px;
     height: 200px;
     border-radius: 8px;
-    padding: 10px;
+    padding: 20px;
+    margin: 0 auto;
     margin-top:10px;
     margin-bottom: 10px;
-    margin-left: 70px;
   }
-  .assignment_example{
+  .assginment_check_box::-webkit-scrollbar{
+    width: 15px;
+  }
+  .assginment_check_box::-webkit-scrollbar-thumb{
+    background-color: var(--color-orange-main);
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 3px solid transparent;
+  }
+  /*.assignment_example{
     width: 350px;
     height: 350px;
     justify-content: center;
     align-items: flex-start;
+  }*/
+  h5{
+    font-family:"Noto Sans KR";
+    margin: 0px;
   }
+
+  h6{
+    font-family: "Noto Sans KR";
+    font-weight: Normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /*
   .assginment_submit_div{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 70px;
-    padding-top: 50px;
   }
   .assginment_submit{
     font-family: "Noto Sans KR";
@@ -149,7 +160,7 @@
     font-weight: bold;
     white-space: nowrap;
     margin: 0;
-  }
+  }*/
   .file-box{
     display: flex;
     flex-direction: row;
@@ -157,20 +168,20 @@
     align-items: center;
     border: 1px solid var(--color-orange-main);
     background-color: var(--color-orange-main);
-    width: 420px;
-    height: 20px;
+    width: 410px;
+    height: 25px;
     border-radius: 5px;
-    padding-top: 5px;
-    margin-bottom: 5px;
+    margin: 0 auto;
+    margin-top: 5px;
     cursor: pointer;
   }
   .file-name {
     font-family: "Noto Sans KR";
     color: #ffffff;
     font-size: 12px;
-    padding-top: 2px;
+    font-weight: lighter;
+    margin: 10px;
     white-space: nowrap;
-    margin: 0;
     color: white;
   }
   .delete-button {
@@ -178,24 +189,45 @@
     color: red;
     font-family: "Noto Sans KR";
     font-size: 12px;
-    margin-left: 10px;
+    margin: 10px;
   }
+  .file_add_div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .file_clip{
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+   }
   .file_add_title{
+    display: inline;
     cursor: pointer;
     font-family: "Noto Sans KR";
     color: var(--color-orange-main);
     font-size: 10px;
     font-weight: normal;
-    margin-bottom: 2px;
-    border-radius: 5px;
-    display: inline-block;
-    background-color: #ffffff;
   }
-  .file_add_div{
+  .upload_div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 0px;
-    margin-top: 2px;
+    justify-content: flex-end;
+    width: 410px;
+    margin: 0 auto;
   }
-  
+  button{
+    background-color: var(--color-orange-main);
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10px;
+    color: #ffffff;
+  }
