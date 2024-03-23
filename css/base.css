@@ -117,13 +117,10 @@ html, body {
 }
 .footerbar {
   background-color:var(--color-main-black);
+  flex-direction: column;
   display: flex;
   height: 100px;
   text-align: center;
-}
-
-.footer_txt_div{
-  margin: auto;
 }
 
 .footer_title{
@@ -131,40 +128,24 @@ html, body {
   color:#ffffff;
   font-weight: lighter;
   font-size: 15px;
-  justify-content: center;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .footer_menus {
-  display: flex;
   width: 400px;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 10px;
+  margin: 0 auto;
 }
 
-.managers {
+footer > div > a {
   font-family: "Gmarket Sans";
   color: #ffffff;
   font-size:10px;
   font-weight: lighter;
-  font-size: 10px;
-  padding-right: 10px;
   text-decoration: none;
-}
-.KAU_likelion {
-  font-family: "Gmarket Sans";
-  color: #ffffff;
-  font-size:10px;
-  font-weight: lighter;
-  padding-right: 10px;
-  text-decoration: none;
-}
-
-.LikeLion_Univ {
-  font-family: "Gmarket Sans";
-  color: #ffffff;
-  font-size:10px;
-  text-decoration: none;
-  font-weight: lighter;
-  font-size: 10px;
 }
